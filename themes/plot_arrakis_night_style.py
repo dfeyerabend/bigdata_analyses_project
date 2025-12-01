@@ -42,15 +42,15 @@ COLORS = {
     'bg_elevated': '#403E41',   # Cards, tooltips
     
     # Foregrounds
-    'fg_primary': '#C6CBCC',    # Main text
+    'fg_primary': '#FCFCFA',    # Main text, was #C6CBCC now brighter!
     'fg_bright': '#FCFCFA',     # Bright text
     'fg_muted': '#939293',      # Muted/secondary text (axis ticks)
     'fg_dim': '#5B595C',        # Dim text, grid lines
     
     # Heading colors (matching Quarto theme)
-    'title': '#CCA361',         # Gold - plot titles (like dunes)
-    'label': '#D4A870',         # Sandy-Gold - axis labels (spice gold)
-    'ticks': '#939293',         # Muted gray - axis ticks (recedes)
+    'title': '#D8BC90',         # Sandy Gold - plot titles (matches Quarto H2)
+    'label': '#FCFCFA',         # bright white - better readability
+    'ticks': '#FCFCFA',         # bright white - better readability for ticks
     
     # Legacy heading names for compatibility
     'heading_h1': '#CCA361',    # Gold - matches Quarto H1
