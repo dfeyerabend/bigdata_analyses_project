@@ -1,0 +1,138 @@
+/*-- scss:defaults --*/
+
+// ARRAKIS NIGHT - Quarto Theme
+
+// Background colors
+$bg-dark:           #2B2927;
+$bg-medium:         #2D2A2E;
+$bg-light:          #302F2E;
+$bg-elevated:       #403E41;
+
+// Foreground colors
+$fg-primary:        #C6CBCC;
+$fg-bright:         #FCFCFA;
+$fg-muted:          #939293;
+$fg-dim:            #5B595C;
+
+// Accent colors
+$accent-gold:       #CCA361;
+$accent-sandy-gold: #D4A870;   // Blend between gold and peach
+$accent-yellow:     #FFD866;
+$accent-orange:     #FC9867;
+$muted-turquoise:   #7A9E9E;   // Muted turquoise for H3 (won't clash with graphs)
+
+// Syntax colors
+$syntax-pink:       #FF6188;
+$syntax-rose:       #D17B8D;
+$syntax-cyan:       #78DCE8;
+$syntax-teal:       #9BD2E0;
+$syntax-green:      #A9DC76;
+$syntax-mint:       #95D1BE;
+$syntax-purple:     #AB9DF2;
+$syntax-peach:      #D19577;
+
+// Bootstrap mappings
+$body-bg:           $bg-dark;
+$body-color:        $fg-primary;
+$link-color:        $syntax-cyan;
+
+$primary:           $syntax-cyan;
+$secondary:         $fg-muted;
+$success:           $syntax-green;
+$info:              $syntax-teal;
+$warning:           $accent-yellow;
+$danger:            $syntax-pink;
+
+$code-bg:           $bg-medium;
+$code-color:        $syntax-mint;
+
+$card-bg:           $bg-elevated;
+$card-border-color: $fg-dim;
+
+$table-border-color: $fg-dim;
+
+/*-- scss:rules --*/
+
+body {
+  background-color: $bg-dark;
+  color: $fg-primary;
+}
+
+h1, .h1 {
+  color: $accent-gold;
+}
+
+h2, .h2 {
+  color: $syntax-peach;
+}
+
+h3, .h3 {
+  color: #C4A87A;
+}
+
+h4, h5, h6 {
+  color: $fg-bright;
+}
+
+a {
+  color: $syntax-cyan;
+}
+
+a:hover {
+  color: $syntax-teal;
+}
+
+code {
+  background-color: $bg-medium;
+  color: $accent-gold;
+  padding: 0.15em 0.4em;
+  border-radius: 4px;
+}
+
+pre {
+  background-color: $bg-medium;
+  border: 1px solid $fg-dim;
+  border-radius: 6px;
+  padding: 1em;
+}
+
+pre code {
+  background-color: transparent;
+  padding: 0;
+  color: $fg-primary;
+}
+
+div.sourceCode {
+  background-color: $bg-medium;
+  border: 1px solid $fg-dim;
+  border-radius: 6px;
+}
+
+th {
+  background-color: $bg-elevated;
+  color: $accent-gold;
+  border-bottom: 2px solid $accent-gold;
+}
+
+td {
+  border-bottom: 1px solid $fg-dim;
+}
+
+blockquote {
+  border-left: 4px solid $accent-gold;
+  background-color: $bg-elevated;
+  padding: 1em 1.5em;
+  border-radius: 0 6px 6px 0;
+}
+
+#TOC {
+  background-color: $bg-elevated;
+  padding: 1em;
+  border-radius: 6px;
+  border: 1px solid $fg-dim;
+}
+
+.navbar {
+  background-color: $bg-medium;
+  border-bottom: 1px solid $fg-dim;
+}
