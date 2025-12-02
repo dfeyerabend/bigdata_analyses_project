@@ -15,8 +15,8 @@ $fg-muted:          #939293;
 $fg-dim:            #5B595C;
 
 // Accent colors
-$accent-gold:       #CCA361;
-$accent-sandy-gold: #D4A870;   // Blend between gold and peach
+$accent-gold:       #E0B870;
+$accent-sandy-gold: #D8BC90;   // Blend between gold and peach
 $accent-yellow:     #FFD866;
 $accent-orange:     #FC9867;
 $muted-turquoise:   #7A9E9E;   // Muted turquoise for H3 (won't clash with graphs)
@@ -59,15 +59,15 @@ body {
 }
 
 h1, .h1 {
-  color: $accent-gold;
+  color: #E0B870;
 }
 
 h2, .h2 {
-  color: $syntax-peach;
+  color: #D8BC90;
 }
 
 h3, .h3 {
-  color: #C4A87A;
+  color: #C6CBCC;
 }
 
 h4, h5, h6 {
