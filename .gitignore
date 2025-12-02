@@ -22,5 +22,5 @@ Thumbs.db
 
 # Project specific
 practice_code
-data/ecommerce_5m.csv
+data/ecommerce_5m_v1.csv
 data/*.csv
